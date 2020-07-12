@@ -1,0 +1,58 @@
+#headers {
+	background-color: #222222;
+	color: white;
+	margin-top: 0px;
+	padding: 25px;
+}
+
+#center {
+	text-align: center;
+}
+
+#inputbox {
+    border-radius: 5px;
+    border: 1px solid silver;
+    padding: 7px; 
+    width: 150px;
+    height: 15px; 
+}
+
+#button {
+	background-color: silver;
+	border: none;
+	border-radius: 5px;
+	color: white;
+	padding: 7px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+}
+
+#box {
+	border-radius: 5px;
+	border: 1px solid silver;
+    margin: 20px 10px 0px;
+    padding:20px 20px 20px;
+    position: relative;
+    display: inline-block;
+}
+
+#boxhead {
+    content: attr(data-title);
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    text-indent: 20px;
+	text-align: left;
+    border-bottom: 1px solid #ccc;
+	background-image: linear-gradient(#EEEEEE, lightgrey);   
+}
+
+#textleft{
+	text-align: left;
+}
